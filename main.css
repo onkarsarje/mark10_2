@@ -1,6 +1,38 @@
 .container{
-
+    border: 0.2rem solid black;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 60%;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#bill-amount{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 1rem 6rem;
+    border: 1.5px solid black;
+    padding: 1rem;
+    
+}
+
+#cash-given{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 1rem 6rem;
+    border: 1.5px solid black;
+    padding: 1rem;
+    
+}
+
+#check-button {
+    margin-top: 1rem;
+    margin: auto;
+    border-width: medium;
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
 }
